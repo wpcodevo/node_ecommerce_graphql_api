@@ -1,0 +1,21 @@
+extends base
+
+block content 
+  p Hi #{firstName},
+  p 
+    | Almost done! We just need verify that 
+    a(href=`mailto:${email}`) #{email}
+    |
+    | is yours, so please verify your email and you’ll be all set
+    | .
+  table.btn.btn-primary(role='presentation' border='0' cellpadding='0' cellspacing='0')
+    tbody
+      tr
+        td(align='left')
+          table(role='presentation' border='0' cellpadding='0' cellspacing='0')
+            tbody
+              tr
+                td
+                  a(href=`${url}` target='_blank') Verify your email address
+  p If you have questions, we’re here to help! Just contact support.
+  p Good luck! Hope it works.

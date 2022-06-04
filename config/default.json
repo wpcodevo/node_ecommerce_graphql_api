@@ -1,0 +1,13 @@
+{
+  "port": 8000,
+  "nodeEnv": "development",
+  "origin": "http://localhost:3000",
+  "jwtAccessTokenExpiresIn": "15m",
+  "jwtRefreshTokenExpiresIn": "1y",
+  "smtp": {
+    "user": "aeerghau4kjzstvs@ethereal.email",
+    "host": "smtp.ethereal.email",
+    "pass": "ta2TVfkzmnBWUP14HT",
+    "port": 587
+  }
+}
